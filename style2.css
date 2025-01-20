@@ -141,7 +141,7 @@ section{
     background-color: black;
     position: absolute;
     width: calc(100% + 8px);
-    height: 3rem;
+    height: 4rem;
     border-left: 3px solid black;
     right: -8px;
     animation: cursor 0.8s infinite, type 20s steps(14) infinite;
