@@ -396,3 +396,75 @@ button:hover{
     font-size: 16px;
     color: white;
 }
+@media(max-width:884px){
+    nav .logo{
+        position: absolute;
+        top: 16px;
+        left: 15px;
+        font-size: 1.5rem;
+        
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .homepage .link{
+        display: none;
+    }
+    .bx-menu, 
+    .bx-x{
+        display: block;
+    }
+    .typing{
+        font-size: 2.03rem;
+    }
+    .main .myself{
+        width: 80%;
+        margin-top: 40px;
+    }
+    .links i{
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+    }
+    .main .image{
+       z-index: -1;
+       width: 50%;
+       height: 60%; 
+    }
+    .service{
+        margin-top: 17rem;
+    }
+    .projects{
+        margin-top: 45rem;
+    }
+    .service-container{
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact{
+        margin-top: 47rem;
+    }
+    .contact form{
+        flex-direction: column;
+    }
+    .projects-box{
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer{
+        margin-top: 35rem;
+    }
+}
+@media (max-width:440px){
+    .main .image{
+        width: 70%;
+        height: 60%;
+    }
+    .main .myself{
+        width: 80%;
+    }
+    .main button{
+        margin-top: 15px;
+    }
+}
